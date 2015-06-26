@@ -1,14 +1,11 @@
----
-output: pdf_document
----
 <!--
 %\VignetteEngine{knitr::knitr}
 %\VignetteIndexEntry{An Introduction to the mypackage}
 -->
    
-   An Introduction to **mypackage** package
+   An Introduction to **mypackage** package in R
 =======================================
-   
+
 ```{r, include=FALSE}
 library(mypackage)
 ```
@@ -18,7 +15,7 @@ Introduction
 ------------
    
    
-   The  **mypackage** package is a solution of homework 6 of Advanced Data Analysis Software Development with R
+   The **mypackage** package is a solution for the homework 6 of Advanced Data Analysis Software Development with R course. Functions are written in **cpp**.
 
 
 
@@ -26,9 +23,9 @@ Functions:
 ----------------------------
    There are three functions included in the package:
 
-- mode - returns most frequent value from given integer vector
-- simplify2array - mimics the behaviour of simplify2array from base package
-- ass - generates all possible 0-1 assignment vectors of _2n_ survey participants in such a way that exactly n of them are assigned to group 0 (control) and the other n ones are assigned to group 1 (treatment).
+- **mode** - returns the most frequent value from a given integer vector.
+- **simplify2array** - mimics the behaviour of simplify2array from base package. The package will try to simplify the list of numeric vectors into a matrix. In case vectors in the list are of different size, function will generate an error.
+- **ass** - generates all possible 0-1 assignment vectors of _2n_ survey participants in such a way that exactly _n_ of them are assigned to group 0 so call control group and the other _n_ ones are assigned to group 1 - treatment. The output is a matrix with all possible assignments.
 
 Examples
 -----------------------------
