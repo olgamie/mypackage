@@ -1,0 +1,14 @@
+Package: mypackage
+Type: Package
+Title: Package was written for IPI PAN course.
+Version: 1.0
+Date: 2015-06-20
+Author: Olga Mierzwa
+Maintainer: Olga Mierzwa <olga.mierzwa@gmail.com>
+Description: Package contains 3 functions: mode, simplify2array and ass.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.6)
+LinkingTo: Rcpp
+Suggests: knitr,
+    testthat, combinat
+VignetteBuilder: knitr

@@ -1,0 +1,8 @@
+.RData
+mypackage.Rproj
+.Rhistory
+vignettes/cache
+vignettes/figure
+*.o
+*.so
+*.ddl
